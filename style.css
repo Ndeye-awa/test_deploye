@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.navbar{
+    letter-spacing: 0.3rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.br{
+    font-style: normal;
+    font-weight: 900;
+}
+
+.archi{
+    font-style: normal;
+}
+
+.lien{
+    margin-right: 15px;
+}
+
+a:hover{
+    background-color: rgb(89, 146, 146);
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    text-align: center
+}
+
+.banner{
+    background-image: url(images/personnage/font.jpg);
+    background-position: center ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 35px;
+    font-weight: 900;
+    background-color: rgba(22, 20, 20, 0.8);
+    padding: 15px;
+    color: white;
+}
+
+.arch{
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card{
+    width: 300px;
+}
+
+.card p{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    margin-left: 30px;
+    font-weight: 200;
+}
+
+.texte{
+    text-align: justify;
+}
+
+.container_team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team_card{
+    width: 300px;
+}
